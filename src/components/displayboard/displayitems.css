@@ -1,0 +1,42 @@
+.displaybox {
+  height: 420px;
+  padding: 15px;
+  display: inline-flex;
+}
+.display-large {
+  padding: 15px;
+  height: 520px;
+  display: inline-flex;
+}
+.container-fluid {
+  padding-top: 20px;
+}
+.display-container {
+  background-color: #ffff5c;
+}
+
+.imgstyle {
+  height: 21rem;
+  object-fit: cover;
+  cursor: pointer;
+  flex-shrink: 1;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .displaybox {
+    height: 300px;
+  }
+
+  .small-card {
+    height: 18rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-title {
+  }
+}

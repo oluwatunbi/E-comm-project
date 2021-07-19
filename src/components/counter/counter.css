@@ -1,0 +1,21 @@
+.counter-board {
+  height: 200px;
+}
+
+.iconcenter {
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.counterstyle {
+  color: red;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  .counter-board {
+    height: 800px;
+  }
+}

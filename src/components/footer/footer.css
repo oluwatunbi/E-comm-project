@@ -1,0 +1,26 @@
+.social-media {
+  width: 400px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.social-container {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-top: 20px;
+}
+
+.footer {
+  background-color: #adadc9;
+  padding-bottom: 50px;
+}
+
+.footer ul {
+  list-style-type: none;
+}

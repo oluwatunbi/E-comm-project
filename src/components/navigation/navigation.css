@@ -1,0 +1,30 @@
+.cool {
+  width: 95vw;
+}
+
+@media screen and (max-width: 480px) {
+  .toggle-form {
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 60px;
+  }
+  .toggle {
+    justify-content: left;
+  }
+  .toggle-icon {
+    flex-direction: ;
+  }
+  .searchbox {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .search-icon {
+    display: none;
+  }
+
+  .toggle-form {
+    justify-content: space-between;
+  }
+}

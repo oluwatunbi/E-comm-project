@@ -1,0 +1,14 @@
+.showcard {
+  background-color: #ffff5c;
+}
+
+.bonus {
+  font-weight: bolder;
+  font-size: 3rem;
+  color: #e62741;
+}
+
+.imgstyle {
+  height: 21rem;
+  object-fit: cover;
+}
